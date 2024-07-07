@@ -965,7 +965,7 @@ map.on("rendercomplete", function(evt) {
 		var attributionList = attribution.getElementsByTagName('ul')[0];
 		if (attributionList) {
 			var qgis2webAttribution = document.createElement('li');
-			qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot; ';
+			qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">UNILA</a> &middot; ';
 			attributionList.appendChild(qgis2webAttribution);
 
 			var olAttribution = document.createElement('li');
